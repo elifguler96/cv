@@ -1,36 +1,25 @@
 [{
-  "company": "Google",
-  "role": "Software Engineering Intern",
+  "company": "Paraşüt",
+  "role": "Mobile Developer Intern",
   "date": "06/2017 - Present",
-  "location": "Zürich, Switzerland",
-  "description_bullets": []
-}, {
-  "company": "Pisano",
-  "role": "Software Engineer",
-  "date": "06/2016 - 06/2017",
   "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Full-stack web development using HTML5, LESS, AngularJS, CoffeeScript, Ruby on Rails.",
-    "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
-    "Implemented, tested and successfully launched the key web product Pisano Web Widget."
-  ]
+  "description": "Development of native Android and iOS applications."
 }, {
-  "company": "Infoset Software",
-  "role": "Software Engineer",
-  "date": "07/2016 - 06/2017",
+  "company": "Google",
+  "role": "CodeU Participant",
+  "date": "05/2017 - Present",
   "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Developed and maintained the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\">infomessage</a>.",
-    "Responsible for the frontend development of 2 company websites: <a href=\"http://www.infomsg.com\" target=\"_blank\">http://www.infomsg.com</a> and <a href=\"http://www.infoset.com.tr\" target=\"_blank\">http://www.infoset.com.tr</a>",
-    "Did both on-page and off-page SEO, got the company websites on the first page of Google for competitive keywords."
-  ]
+  "description": "CodeU is a program created by Google to develop the skills of future software engineers. This exclusive and selective program includes virtual trainings with Google engineers, practicing high level technical problem solving, reviewing our peer's code, and a summit in London in the summer."
+}, {
+  "company": "Twentify",
+  "role": "Android Developer Intern",
+  "date": "11/2016 - 02/2017",
+  "location": "Istanbul, Turkey",
+  "description": "With the help of team members and websites like Udacity, I learned about Android Development and developed the Popular Movies project."
 }, {
   "company": "Boğaziçi University Entrepreneurship Center",
-  "role": "Development Team Leader",
-  "date": "09/2016 - 06/2017",
+  "role": "Frontend Developer",
+  "date": "10/2016 - 02/2017",
   "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Built and deployed a new web application called \"Bright\" with a team of 6 people.",
-    "Technologies used: PHP (Laravel), Javascript (ES6 / ES2015), HTML5, CSS3."
-  ]
+  "description": "Working in a small but efficient team as the frontend developer and content manager. Our team is responsible for building the website, which plays a key role in representing Boğaziçi University Entrepreneurship Center."
 }]

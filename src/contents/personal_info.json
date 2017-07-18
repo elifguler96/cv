@@ -1,26 +1,22 @@
-{
-  "name": "Samed Düzçay",
+﻿{
+  "name": "Elif Güler",
   "profession": "Software Engineer",
-  "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-  "mail": "samedduzcay@gmail.com",
+  "summary": "A hard-working, goal-oriented, innovative and passionate programmer with good team work and leadership skills. Loves helping other people.",
+  "mail": "elgu96@gmail.com",
+  "phone": "+905309267417",
   "address": {
-    "title": "Şişli, Istanbul, TURKEY",
-    "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"
-  },
-  "personal_site": {
-    "title": "smddzcy.com",
-    "url": "http://www.smddzcy.com/"
+    "title": "Maslak, Istanbul, TURKEY",
+    "url": "https://www.google.com.tr/maps/place/41%C2%B006'39.8%22N+29%C2%B001'00.8%22E/@41.111053,29.0146943,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d41.111053!4d29.016883?hl=tr"
   },
   "github": {
-    "title": "github.com/smddzcy",
-    "url": "https://github.com/smddzcy"
+    "title": "github.com/elifguler96",
+    "url": "https://github.com/elifguler96"
   },
   "linkedin": {
-    "title": "linkedin.com/in/smddzcy",
-    "url": "https://www.linkedin.com/in/smddzcy"
-  },
-  "hackerrank": {
-    "title": "hackerrank.com/smddzcy",
-    "url": "https://www.hackerrank.com/smddzcy"
+    "title": "linkedin.com/in/elifguler96",
+    "url": "https://www.linkedin.com/in/elifguler96"
+  }, "hackerrank": {
+    "title": "hackerrank.com/elifguler",
+    "url": "https://www.hackerrank.com/elifguler"
   }
 }

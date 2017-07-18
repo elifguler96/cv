@@ -1,6 +1,15 @@
-[{
-  "name": "Boğaziçi University",
-  "degree": "B.S. Computer Engineering",
-  "date": "09/2015 - Present",
-  "description": "GPA: 3.82/4.0, SPA: 4.0/4.0. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>. Founding member of BÜGAK (Boğaziçi University Futurism Club)."
-}]
+﻿[
+  {
+    "name": "Boğaziçi University",
+    "degree": "B.S. Computer Engineering",
+    "date": "09/2015 - Present",
+    "description": "GPA: 3.60/4. Founding member of BÜGAK (Boğaziçi University Future Studies Club) and member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a>." 
+}, {
+    "name": "Udacity",
+    "degree": "Android Developer Nanodegree",
+    "date": "01/2017 - Present" 
+}, {
+    "name": "Robert College",
+    "degree": "High School",
+    "date": "09/2010 - 06/2015",
+    "description": "GPA: 93/100. Took Intro. to Programming (Visual Basic) and Advanced Programming (Java) classes." }]
