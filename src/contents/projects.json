@@ -1,4 +1,8 @@
 ﻿[{
+  "name": "Google CodeU Program",
+  "description": "Participated in a program for selected CS students from all over EMEA. The program involved regular code reviews with a Google Engineer and peer to peer code reviews; learning industry best practices such as testing and debugging etc.",
+  "github": "https://github.com/elifguler96/CodeU-2017"
+}, {
   "name": "Popular Movies",
   "description": "An app which lets you see popular movies. Created as a project for Udacity's Android Developer Nanodegree Program.",
   "github": "https://github.com/elifguler96/Popular-Movies"

@@ -1,25 +1,13 @@
 [{
   "company": "Paraşüt",
   "role": "Mobile Developer Intern",
-  "date": "06/2017 - Present",
+  "date": "06/2017 - 07/2017",
   "location": "Istanbul, Turkey",
   "description": "Development of native Android and iOS applications."
-}, {
-  "company": "Google",
-  "role": "CodeU Participant",
-  "date": "05/2017 - Present",
-  "location": "Istanbul, Turkey",
-  "description": "CodeU is a program created by Google to develop the skills of future software engineers. This exclusive and selective program includes virtual trainings with Google engineers, practicing high level technical problem solving, reviewing our peer's code, and a summit in London in the summer."
 }, {
   "company": "Twentify",
   "role": "Android Developer Intern",
   "date": "11/2016 - 02/2017",
   "location": "Istanbul, Turkey",
   "description": "With the help of team members and websites like Udacity, I learned about Android Development and developed the Popular Movies project."
-}, {
-  "company": "Boğaziçi University Entrepreneurship Center",
-  "role": "Frontend Developer",
-  "date": "10/2016 - 02/2017",
-  "location": "Istanbul, Turkey",
-  "description": "Working in a small but efficient team as the frontend developer and content manager. Our team is responsible for building the website, which plays a key role in representing Boğaziçi University Entrepreneurship Center."
 }]
