@@ -76,43 +76,47 @@
     </header>
 
     <main class="container">
-      <div class="flex-row flex-start col-md-6 half-page" id="first-half-page">
+      <div class="col-sm-12 col-md-6 half-page" id="first-half-page">
         <!--(bake-start _if="experiences.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Work Experience")-->
           <!--(bake _experience.html _foreach="experience:experiences")-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="projects.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Projects")-->
           <!--(bake-start _foreach="project:projects")-->
             <section class="project">
-              <div class="col-sm-12">
-                <div class="flex-row flex-space-between">
-                  <h1>{{project.name | trim}}
-                    <!--(bake-start _if="project.github")-->
-                    <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
-                    <!--(bake-end)-->
-                    <!--(bake-start _if="project.link")-->
-                    <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
-                    <!--(bake-end)-->
-                  </h1>
-                </div>
-                <p>{{project.description | trim}}</p>
+              <div class="flex-row flex-space-between">
+                <h1>{{project.name | trim}}
+                  <!--(bake-start _if="project.github")-->
+                  <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
+                  <!--(bake-end)-->
+                  <!--(bake-start _if="project.link")-->
+                  <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
+                  <!--(bake-end)-->
+                </h1>
               </div>
+              <p>{{project.description | trim}}</p>
             </section>
           <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="volunteering_experiences.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Volunteering Experience")-->
           <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="languages.length")-->
-        <!--(bake _section-header.html title="Languages")-->
-        <section class="languages">
-          <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="bullets custom-bullets flex-row">
+        <div class="block">
+          <!--(bake _section-header.html title="Languages")-->
+          <section class="languages">
+            <ul class="bullets">
               <!--(bake-start _foreach="language:languages")-->
               <li class="inline fifty">
                 <span><strong>{{language.name | trim}}</strong>
@@ -120,17 +124,17 @@
               </li>
               <!--(bake-end)-->
             </ul>
-          </div>
-        </section>
+          </section>
+        </div>
         <!--(bake-end)-->
       </div>
 
-      <div class="flex-row flex-start col-md-6 half-page" id="second-half-page">
+      <div class="col-sm-12 col-md-6 half-page" id="second-half-page">
         <!--(bake-start _if="education.length")-->
-        <!--(bake _section-header.html title="Education")-->
-        <!--(bake-start _foreach="school:education")-->
-        <section class="education">
-          <div class="col-sm-12">
+        <div class="block">
+          <!--(bake _section-header.html title="Education")-->
+          <!--(bake-start _foreach="school:education")-->
+          <section class="education">
             <div class="section-inner-header flex-row flex-space-between">
               <div class="padding-right-10">
                 <h1>{{school.degree | trim}}</h1>
@@ -143,29 +147,29 @@
             <!--(bake-start _if="school.description")-->
             <p>{{school.description | trim}}</p>
             <!--(bake-end)-->
-          </div>
-        </section>
-        <!--(bake-end)-->
+          </section>
+          <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="skills.length")-->
-        <!--(bake _section-header.html title="Skills")-->
-        <section class="skills">
-          <div class="col-sm-12">
-            <ul class="bullets custom-bullets">
+        <div class="block">
+          <!--(bake _section-header.html title="Skills")-->
+          <section class="skills">
+            <ul class="bullets">
               <!--(bake-start _foreach="skill:skills")-->
               <li><span>{{skill | trim}}</span></li>
               <!--(bake-end)-->
             </ul>
-          </div>
-        </section>
+          </section>
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="certificates.length")-->
-        <!--(bake _section-header.html title="Certifications")-->
-        <!--(bake-start _foreach="certificate:certificates")-->
-        <section class="certificate">
-          <div class="col-sm-12">
+        <div class="block">
+          <!--(bake _section-header.html title="Certifications")-->
+          <!--(bake-start _foreach="certificate:certificates")-->
+          <section class="certificate">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>{{certificate.title | trim}}</h1>
@@ -178,19 +182,19 @@
             <!--(bake-start _if="certificate.description")-->
             <p>{{certificate.description | trim}}</p>
             <!--(bake-end)-->
-          </div>
-        </section>
-        <!--(bake-end)-->
+          </section>
+          <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="honors.length")-->
-        <!--(bake _section-header.html title="Honors & Awards")-->
-        <section class="honors">
-          <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="bullets custom-bullets">
+        <div class="block">
+          <!--(bake _section-header.html title="Honors & Awards")-->
+          <section class="honors">
+            <ul class="bullets">
               <!--(bake-start _foreach="honor:honors")-->
               <div>
-                <div class="flex-row flex-space-between">
+                <div class="flex-row flex-space-between flex-nowrap">
                   <li><span><strong>{{honor.title | trim}}</strong></span></li>
                   <!--(bake-start _if="honor.date")-->
                   <span class="date">{{honor.date | trim}}</span>
@@ -202,13 +206,99 @@
               </div>
               <!--(bake-end)-->
             </ul>
-          </div>
-        </section>
+          </section>
+        </div>
         <!--(bake-end)-->
       </div>
     </main>
     <!--(bake-start _if="dev=='true'")-->
     <script src="http://localhost:9002/livereload.js"></script>
     <!--(bake-end)-->
+    <!--(bake-start _if="personal_info.google_analytics")-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ personal_info.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', '{{ personal_info.google_analytics }}');
+    </script>
+    <!--(bake-end)-->
+    <script>
+      (function() {
+        // If the height/width ratio is bigger than or equal to A4 height/width ratio,
+        // it should be portrait.
+        var shouldBePortrait = document.body.offsetHeight / document.body.offsetWidth >= 297 / 210;
+
+        var setPageSize = function(size) {
+          var style = document.createElement('style');
+          style.type = 'text/css';
+          style.id = 'print-style';
+          style.media = 'print';
+          // If the style already exists, remove it.
+          var existingEl = document.getElementById(style.id);
+          if (existingEl) {
+            existingEl.parentNode.removeChild(existingEl);
+          }
+          var css = '@media print {' +
+                      '@page {' +
+                        'size: ' + size + ';' +
+                      '}' +
+                    '}';
+          style.appendChild(document.createTextNode(css));
+          document.head.appendChild(style);
+        }
+
+        var prepareSinglePagePrint = function() {
+          var div = document.createElement('div');
+          div.id = 'dummy-div';
+          div.style.width = '1cm';
+          document.body.appendChild(div);
+          while (!document.getElementById(div.id)) true; // wait until the element is rendered
+          var pixelCmRatio = div.offsetWidth; // get the pixel / cm ratio
+          div.parentNode.removeChild(div); // remove the dummy element from DOM
+
+          var pageWidth, pageHeight;
+          if (shouldBePortrait) {
+            pageHeight = document.body.offsetHeight / pixelCmRatio + 0.1;
+            pageWidth = pageHeight * 210 / 297;
+          } else {
+            pageWidth = document.body.offsetWidth / pixelCmRatio + 0.1;
+            pageHeight = pageWidth * 210 / 297;
+          }
+          setPageSize(pageWidth + 'cm ' + pageHeight + 'cm');
+        };
+
+        var prepareA4Print = function() {
+          if (shouldBePortrait) {
+            setPageSize('A4 portrait');
+          } else {
+            setPageSize('A4 landscape');
+          }
+        };
+
+        var preparePrint = function() {
+          var isSinglePage = confirm('Fit on a single page?');
+          if (isSinglePage) {
+            prepareSinglePagePrint();
+          } else {
+            prepareA4Print();
+          }
+        };
+
+        window.onload = prepareSinglePagePrint;
+
+        // Prepare the page for printing before the print dialog.
+        document.addEventListener('keydown', function (e) {
+          e = e || window.event;
+          var isMac = window.navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+          if (e.keyCode === 80 && (isMac ? e.metaKey : e.ctrlKey)) {
+            // Cmd+P (on Mac) or Ctrl+P (on non-Mac) is pressed.
+            e.preventDefault(); // cancel the default print event
+            preparePrint();
+            window.print();
+          }
+        }, true);
+      }());
+    </script>
   </body>
 </html>
