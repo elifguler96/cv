@@ -7,6 +7,10 @@
   "description": "An app which lets you see popular movies. Created as a project for Udacity's Android Developer Nanodegree Program.",
   "github": "https://github.com/elifguler96/Popular-Movies"
 }, {
+  "name": "Ford CoPilot",
+  "description": "Ford CoPilot is a real-time data analysis application for cars, that detects potential car crashes and sends emergency texts, shows the cheapest nearby gas stations with their gas efficiencies, shows the speed limits of your road and so on.",
+  "github": "https://github.com/smddzcy/ford-copilot"
+}, {
   "name": "SkateMate",
   "description": "SkateMate enables skaters to find and share new spots, and connect with each other in real-time. This project is for ENG 493 - Launching a Successful Software Startup - 2016 Fall term, at Boğaziçi University. I'm responsible for the development of the Android app and managing the social media accounts.",
   "link": "http://unbouncepages.com/skatespot/", "github": "https://github.com/smddzcy/SkateMate"

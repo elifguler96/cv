@@ -11,6 +11,10 @@
   "date": "12/2016",
   "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for its Android application."
 }, {
+  "title": "Ford Otosan OpenXC Hackathon - 3rd Place",
+  "date": "11/2017",
+  "description": "There were 26 teams. We built <a href=\"https://github.com/smddzcy/ford-copilot\" target=\"_blank\">Ford CoPilot</a> which is a real-time data analysis application for cars, that detects potential car crashes and sends emergency texts, shows the cheapest nearby gas stations with their gas efficiencies, shows the speed limits of your road and so on. I was responsible for its Android application."
+}, {
   "title": "Invent Analytics & Compec Hackathon - 3rd Place",
   "date": "05/2017",
   "description": "I was the team leader. We were given ~400.000 sales data and 5 product groups to be identified from that data. I was responsible for identifying the groups. I got 4/5 of them right."
