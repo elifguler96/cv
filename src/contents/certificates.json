@@ -1,5 +1,15 @@
-[
-  {
+[{
+    "title": "Google Developer Challenge Scholarship 2017/2018",
+    "authority": "Google & Udacity",
+    "date": "10/2017",
+    "description": "Given by Google and Udacity to limited number of students across Europe, Turkey, Russia, Egypt and Israel interested in Android Development. All recipients earn access to world-class curriculum, dynamic peer communities, and personalized mentorship."
+}, {
+    "title": "Algorithmic Competition Winter Camp Participation",
+    "authority": "Inzva",
+    "date": "02/2018",
+    "description": "A camp organized by Inzva for people who are interested in algorithmic competitions. Coached by Kevin Atienza, 25 selected students solved algorithms questions for a week."
+}, {
     "title": "BU 409 - Campus to Career",
     "authority": "BÜMED",
-    "date": "04/2016" }]
+    "date": "04/2016" 
+}]
