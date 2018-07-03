@@ -3,6 +3,10 @@
   "description": "Participated in a program for selected CS students from all over EMEA. The program involved regular code reviews with a Google Engineer and peer to peer code reviews; learning industry best practices such as testing and debugging etc.",
   "github": "https://github.com/elifguler96/CodeU-2017"
 }, {
+  "name": "Predicting Installation of an Application Using LGBM",
+  "description": "This project is for CMPE 462 - Machine Learning - 2018 Spring term, at Boğaziçi University; inspired by Kaggle's TalkingData AdTracking Fraud Detection Challenge. I was responsible for data analysis and feature selection.",
+  "link": "https://drive.google.com/file/d/1jwFg9fWPp0uv4fw6vet9Kyb_VOKxC_DZ/view?usp=sharing"
+}, {
   "name": "Popular Movies",
   "description": "An app which lets you see popular movies. Created as a project for Udacity's Android Developer Nanodegree Program.",
   "github": "https://github.com/elifguler96/Popular-Movies"

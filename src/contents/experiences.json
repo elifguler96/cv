@@ -1,15 +1,25 @@
 [{
+  "company": "IBM",
+  "role": "Cloud Intern",
+  "date": "07/2018 - Present",
+  "location": "Istanbul, Turkey"
+}, {
+  "company": "IBM",
+  "role": "IBM Ambassador",
+  "date": "07/2018 - Present",
+  "location": "Istanbul, Turkey"
+}, {
   "company": "Boğaziçi University",
   "role": "Student Assistant",
-  "date": "02/2018 - Present",
+  "date": "02/2018 - 06/2018",
   "location": "Istanbul, Turkey",
   "description": "Student assistant for CMPE160 - Introduction to Object Oriented Programming. Helping the teaching assistants in preparing quizzes and projects, grading homework and helping students during problem sessions."
 },{
   "company": "Paraşüt",
   "role": "Mobile Developer",
-  "date": "10/2017 - Present",
+  "date": "10/2017 - 05/2018",
   "location": "Istanbul, Turkey",
-  "description": "Development of native Android and iOS applications. Component structure and unit tests in iOS. Scrum methodology."
+  "description": "Development of native Android and iOS applications. Component structure, unit and snapshot tests in iOS. Scrum methodology."
 }, {
   "company": "Paraşüt",
   "role": "Mobile Developer Intern",
