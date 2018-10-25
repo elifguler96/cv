@@ -1,7 +1,12 @@
 [{
+  "company": "Girişimcilik Vakfı",
+  "role": "Fellow",
+  "date": "10/2018 - Present",
+  "location": "Istanbul, Turkey"
+}, {
   "company": "IBM",
   "role": "Cloud Intern",
-  "date": "07/2018 - Present",
+  "date": "07/2018 - 08/2018",
   "location": "Istanbul, Turkey"
 }, {
   "company": "IBM",
