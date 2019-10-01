@@ -1,18 +1,31 @@
 [{
-  "company": "Girişimcilik Vakfı",
+  "company": "Google",
+  "role": "Software Engineering Intern",
+  "date": "06/2019 - 09/2019",
+  "location": "Zurich, Switzerland",
+  "description": "Developed features full stack and worked on Google Web Server."
+},{
+  "company": "Girişimcilik Vakfı (Entrepreneurship Foundation)",
+  "role": "Alumni",
+  "date": "06/2019 - Present",
+  "location": "Istanbul, Turkey"
+},{
+  "company": "Girişimcilik Vakfı (Entrepreneurship Foundation)",
   "role": "Fellow",
-  "date": "10/2018 - Present",
+  "date": "10/2018 - 06/2019",
   "location": "Istanbul, Turkey"
 }, {
   "company": "IBM",
   "role": "Cloud Intern",
   "date": "07/2018 - 08/2018",
-  "location": "Istanbul, Turkey"
+  "location": "Istanbul, Turkey",
+  "description": "Worked on developing demos for customers using IBM Cloud tools."
 }, {
   "company": "IBM",
   "role": "IBM Ambassador",
   "date": "07/2018 - Present",
-  "location": "Istanbul, Turkey"
+  "location": "Istanbul, Turkey",
+  "description": "The aim of this program is to help university students be more aware of what IBM does and help them get familiar with IBM Cloud."
 }, {
   "company": "Boğaziçi University",
   "role": "Student Assistant",

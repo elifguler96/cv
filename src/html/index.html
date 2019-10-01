@@ -128,22 +128,6 @@
         </div>
         <!--(bake-end)-->
 
-        <!--(bake-start _if="languages.length")-->
-        <div class="block">
-          <!--(bake _section-header.html title="Languages")-->
-          <section class="languages">
-            <ul class="bullets">
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <span><strong>{{language.name | trim}}</strong>
-                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
-              </li>
-              <!--(bake-end)-->
-            </ul>
-          </section>
-        </div>
-        <!--(bake-end)-->
-
         <!--(bake-start _if="volunteering_experiences.length")-->
         <div class="block">
           <!--(bake _section-header.html title="Volunteering Experience")-->
@@ -204,6 +188,22 @@
                 <span>{{honor.description}}</span>
                 <!--(bake-end)-->
               </div>
+              <!--(bake-end)-->
+            </ul>
+          </section>
+        </div>
+        <!--(bake-end)-->
+
+        <!--(bake-start _if="languages.length")-->
+        <div class="block">
+          <!--(bake _section-header.html title="Languages")-->
+          <section class="languages">
+            <ul class="bullets">
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <span><strong>{{language.name | trim}}</strong>
+                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
+              </li>
               <!--(bake-end)-->
             </ul>
           </section>
