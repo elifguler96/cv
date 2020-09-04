@@ -1,6 +1,12 @@
 [{
   "company": "Google",
   "role": "Software Engineering Intern",
+  "date": "05/2020 - 08/2020",
+  "location": "Istanbul, Turkey",
+  "description": "Worked for a team in Munich, Germany remotely because of the COVID-19 pandemic."
+},{
+  "company": "Google",
+  "role": "Software Engineering Intern",
   "date": "06/2019 - 09/2019",
   "location": "Zurich, Switzerland",
   "description": "Developed the back-end and front-end of two features and worked on the Google Web Server."
