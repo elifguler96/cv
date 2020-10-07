@@ -1,4 +1,4 @@
-# CV
+# CV by Samed Duzcay
 
 [![Build Status](https://travis-ci.org/smddzcy/cv.svg?branch=master)](https://travis-ci.org/smddzcy/cv)
 [![Build status](https://ci.appveyor.com/api/projects/status/nyqpn4ax25rkw1yf?svg=true)](https://ci.appveyor.com/project/Samed15956/cv)
